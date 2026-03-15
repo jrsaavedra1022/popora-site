@@ -1,2 +1,1 @@
-# Replace pub-REPLACE_WITH_ADMOB_PUBLISHER_ID before publishing.
-google.com, pub-REPLACE_WITH_ADMOB_PUBLISHER_ID, DIRECT, f08c47fec0942fa0
+google.com, pub-7713101697729019, DIRECT, f08c47fec0942fa0
