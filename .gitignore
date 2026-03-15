@@ -1,0 +1,133 @@
+# ------------------------------
+# OS / Filesystem
+# ------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ------------------------------
+# Editors / IDEs
+# ------------------------------
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+
+# ------------------------------
+# Logs
+# ------------------------------
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ------------------------------
+# Environment / Secrets
+# ------------------------------
+.env
+.env.*
+!.env.example
+!.env.sample
+
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# ------------------------------
+# Node / Frontend tooling
+# (por si luego usas npm, vite, bundlers, etc.)
+# ------------------------------
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.yarn-cache/
+.yarnrc
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+dist/
+build/
+.out/
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
+coverage/
+
+# ------------------------------
+# Static site generators / optional tooling
+# ------------------------------
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.hugo_build.lock
+
+# ------------------------------
+# Testing / Reports
+# ------------------------------
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+
+# ------------------------------
+# Archives / Exports
+# ------------------------------
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# ------------------------------
+# Local screenshots / drafts
+# (descomenta si quieres ignorar material temporal)
+# ------------------------------
+# drafts/
+# temp/
+# screenshots-temp/
+
+# ------------------------------
+# Python (por si luego haces scripts auxiliares)
+# ------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.python-version
+
+# ------------------------------
+# Misc
+# ------------------------------
+*.bak
+*.orig
+*.rej
