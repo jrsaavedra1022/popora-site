@@ -123,7 +123,7 @@ h1 {
 }
 
 .card,
-.media-placeholder,
+.screenshots,
 .quick-links,
 .legal-page section,
 .support-page .card {
@@ -134,7 +134,7 @@ h1 {
   padding: 1rem 1.1rem;
 }
 
-.media-placeholder,
+.screenshots,
 .quick-links,
 .legal-page,
 .support-page,
@@ -142,13 +142,48 @@ h1 {
   margin-bottom: 2rem;
 }
 
-.placeholder-box {
-  border: 2px dashed #b8c2dd;
-  border-radius: var(--radius);
-  padding: 2rem;
-  text-align: center;
+.section-heading {
+  margin-bottom: 1rem;
+}
+
+.section-heading h2 {
+  margin: 0 0 0.35rem;
+}
+
+.section-heading p {
+  margin: 0;
   color: var(--muted);
-  background: #f9fbff;
+}
+
+.screenshot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.screenshot-card {
+  margin: 0;
+  background: #f8faff;
+  border: 1px solid var(--border);
+  border-radius: calc(var(--radius) - 4px);
+  padding: 0.65rem;
+}
+
+.screenshot-card img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1290 / 2796;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}
+
+.screenshot-card figcaption {
+  margin-top: 0.55rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+  text-align: center;
 }
 
 .site-footer {
